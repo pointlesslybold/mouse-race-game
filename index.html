@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Game by Azzy</title>
+    <link id="favicon" rel="icon" href="https://kira-kira-tech.icu/ram/web_game/life.png" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=0.0, user-scalable=no">
+    <link rel="stylesheet" href="./wg_style.css">
+  </head>
+  <body>
+    <div class="fullscreen" id="info">
+      <div id="info-controls">
+        Use arrows (Up and Down) to shift your character from one lane to another!
+      </div>
+      <div id="info-what-to-do">
+        Avoid obstacles, collect power-ups and extra lives, and try to get a high score!
+      </div>
+      <div id="click-tap-to-proceed">
+        Click/tap anywhere to proceed
+      </div>
+    </div>
+    
+    <div class="fullscreen" id="click-catcher"></div>
+
+    <div class="fullscreen" id="leaderboard-entry">
+      <div id="leaderboard-form">
+        <form id="high-score">
+          <input type="text" required placeholder="Your Name" id="submit-name" />
+          <button id="submit-score">Submit</button>
+        </form>
+      </div>
+
+      <div id="leaderboard-form-table">
+        
+      </div>
+
+      <div id="leaderboard-button-try-again">
+        <button id="try-again">
+          Try Again
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./wg_script.js"></script>
+</html>
